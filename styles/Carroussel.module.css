@@ -1,3 +1,27 @@
 .container {
-  height: calc(100vh - 100px);
+  height: calc(100vh);
+  background-color: orange;
+  position: relative;
+  overflow: hidden;
+}
+.arrowContainer {
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  z-index: 2;
+}
+.imgContainer {
+  width: 100vw;
+  height: calc(100vh);
+  position: relative;
+}
+.wrapper {
+  width: 300vw;
+  height: 100vh;
+  display: flex;
+  transition: all 1.5s ease-in-out;
 }

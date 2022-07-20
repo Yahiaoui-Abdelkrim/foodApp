@@ -3,9 +3,11 @@ import styles from "../../styles/Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <nav className={`${styles.navbar} navbar navbar-expand-lg navbar-light navbar-color`}>
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+    <nav
+      className={`${styles.navbar} navbar navbar-expand-lg fixed-top navbar-light navbar-color `}
+    >
+      <div className="container">
+        <a className="navbar-brand text-white" href="#">
           Navbar
         </a>
         <button
@@ -20,24 +22,26 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav mx-auto gap-3">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active text-white" aria-current="page" href="#">
                 Home
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+            <li className="nav-item ">
+              <a className="nav-link text-white" href="#">
                 Features
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link text-white" href="#">
                 Pricing
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled">Disabled</a>
+              <a className="nav-link text-white" href="#">
+                Pricing
+              </a>
             </li>
           </ul>
         </div>

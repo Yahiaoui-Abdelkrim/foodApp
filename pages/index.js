@@ -2,7 +2,8 @@ import Head from "next/head";
 import Navbar from "./components/Navbar";
 import Carrousel from "./components/Carrousel";
 import styles from "../styles/Home.module.css";
-import Image from "next/image";
+import PizzaList from "./components/PizzaList";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
       <main>
         <Navbar />
         <Carrousel />
+        <PizzaList />
+        <Footer />
       </main>
     </div>
   );

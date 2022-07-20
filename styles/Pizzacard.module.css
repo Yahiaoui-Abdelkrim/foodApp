@@ -1,0 +1,9 @@
+.clickEvent:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+}
+.clickEvent {
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
